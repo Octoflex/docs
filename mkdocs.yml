@@ -1,0 +1,30 @@
+site_name: OctoFlex Docs
+site_description: Documentación oficial del proyecto OctoFlex 🚀
+nav:
+  - Home: index.md
+  - Guía de Inicio: guia_de_inicio.md
+  - Referencia API: referencia_api.md
+  - Tutoriales:
+      - Primeros Pasos: tutoriales/primeros_pasos.md
+      - Integraciones Avanzadas: tutoriales/integraciones_avanzadas.md
+  - FAQ: faq.md
+  - Acerca de: acerca_de.md
+theme:
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
