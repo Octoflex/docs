@@ -1,28 +1,53 @@
 site_name: OctoFlex Docs
+site_url: https://docs.octoflex.es
 site_description: Documentación oficial del proyecto OctoFlex 🚀
 nav:
   - Home: index.md
   - Documentación técnica: 
-    - Ceph: docu_tecnica/ceph/ceph_base.md
-    - Openstack: docu_tecnica/openstack/openstack_base.md
-  - Blog: 
-    - blog/index.md
+    - Ceph: doc/ceph/ceph_base.md
+    - Openstack: doc/openstack/openstack_base.md
+  # - Blog: 
+  #   - blog/index.md
   - Acerca de: about.md
 theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.ico
   palette:
-    primary: 'indigo'
-    accent: 'pink'
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
   language: 'es'
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.indexes
+    - navigation.instant.progress
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.share
 markdown_extensions:
   - admonition
   - codehilite
@@ -40,5 +65,25 @@ plugins:
   - search
   - social
   - minify
-  - blog: 
-      authors_file: "blog/authors/.authors.yml"
+  # - i18n:
+  #     default_language: es
+  #     languages:
+  #       es: Español
+  #       en: English
+  # - blog: 
+  #     authors_file: "blog/authors/.authors.yml"
+extra:
+  consent:
+    title: Consentimiento de cookies
+    description: >- 
+      Usamos cookies para reconocer tus visitas y preferencias repetidas, así 
+      como para medir la efectividad de nuestra documentación y si los usuarios 
+      encuentran lo que buscan. Con tu consentimiento, nos ayudas a mejorar 
+      nuestra documentación.
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+  analytics:
+    provider: google
+    property: G-X41K5YEY4S

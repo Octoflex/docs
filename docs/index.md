@@ -4,7 +4,7 @@
 
 ## 📬 Contacto
 
-- [GitHub](https://github.com/adminoctoflex) 🐙
+- [GitHub](https://github.com/octoflex) 🐙
 - [Twitter](https://twitter.com/octoflex_es) 🐦
 
 <!-- - [Correo Electrónico](mailto:tu-email@ejemplo.com) 📧 -->
