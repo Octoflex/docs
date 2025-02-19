@@ -3,7 +3,8 @@ site_description: Documentación oficial del proyecto OctoFlex 🚀
 nav:
   - Home: index.md
   - Guía de Inicio: guia_de_inicio.md
-  - Referencia API: referencia_api.md
+  - Documentación técnica: 
+    - CEPH: docu_tecnica/ceph/ceph.md
   - Tutoriales:
       - Primeros Pasos: tutoriales/primeros_pasos.md
       - Integraciones Avanzadas: tutoriales/integraciones_avanzadas.md
