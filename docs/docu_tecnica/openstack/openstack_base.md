@@ -1,8 +1,9 @@
 # OpenStack
+![OpenStack Logo](openstack_logo.png){width=35%}
+
 OpenStack es una plataforma de software de código abierto para la computación en la nube, que permite la creación y gestión de infraestructuras de nube pública y privada. Fue diseñado para ser escalable y flexible, proporcionando una solución robusta para la gestión de recursos de computación, almacenamiento y redes. OpenStack es utilizado por una amplia variedad de organizaciones, desde pequeñas empresas hasta grandes corporaciones y proveedores de servicios en la nube. 🌐
 
 
-![OpenStack Logo](openstack_logo.png){width=60%}
 ## Módulos de OpenStack 🚀
 
 OpenStack está compuesto por una serie de módulos que se integran para ofrecer una solución completa de nube. Algunos de los módulos más importantes son:
@@ -17,6 +18,8 @@ OpenStack está compuesto por una serie de módulos que se integran para ofrecer
 - **Heat**: Ofrece servicios de orquestación, permitiendo la gestión de la infraestructura como código. Facilita la automatización del despliegue de recursos.
 - **Ceilometer**: Proporciona servicios de telemetría, permitiendo la monitorización y medición de recursos. Es útil para la facturación y la monitorización del rendimiento.
 
+![Arquitectura de OpenStack](estructura_openstack.png)
+
 ## Entornos donde está desplegado OpenStack 🌍
 
 OpenStack se despliega en una variedad de entornos, incluyendo:
@@ -28,6 +31,7 @@ OpenStack se despliega en una variedad de entornos, incluyendo:
 - **Telecomunicaciones**: Empresas de telecomunicaciones despliegan OpenStack para gestionar sus infraestructuras de red y ofrecer servicios avanzados a sus clientes.
 
 ## Distribuciones y Métodos de Despliegue 🛠️
+OpenStack es una solución poderosa y flexible para la gestión de infraestructuras de nube, utilizada por muchas organizaciones en todo el mundo para construir y gestionar sus entornos de nube. Su naturaleza de código abierto y su amplia comunidad de desarrolladores y usuarios aseguran que OpenStack continúe evolucionando y mejorando con el tiempo. 🚀
 
 Existen varias distribuciones y métodos de despliegue de OpenStack, cada una con sus propias características y ventajas. Algunas de las más populares son:
 
@@ -41,13 +45,27 @@ Existen varias distribuciones y métodos de despliegue de OpenStack, cada una co
 
 Cada una de estas distribuciones y métodos de despliegue ofrece diferentes ventajas y puede ser adecuada para diferentes casos de uso, dependiendo de las necesidades específicas de la organización y del entorno en el que se vaya a desplegar OpenStack.
 
+
+## Casos de Uso e Infraestructuras que Usan OpenStack 🏢
+
+OpenStack se utiliza en una variedad de casos de uso e infraestructuras, incluyendo:
+
+- **Proveedores de Servicios en la Nube**: Empresas como Rackspace y OVH utilizan OpenStack para ofrecer servicios de nube pública a sus clientes, proporcionando una infraestructura escalable y flexible.
+- **Empresas de Tecnología**: Grandes corporaciones tecnológicas como Yahoo! y PayPal han implementado OpenStack para gestionar sus infraestructuras de nube privada, mejorando la eficiencia y reduciendo costos.
+- **Instituciones Académicas**: Universidades y centros de investigación utilizan OpenStack para gestionar recursos de computación y almacenamiento, facilitando la colaboración y el acceso a grandes volúmenes de datos.
+- **Sector Público**: Gobiernos y agencias públicas despliegan OpenStack para crear nubes privadas y gestionar sus infraestructuras de TI de manera más eficiente y segura.
+- **Telecomunicaciones**: Empresas de telecomunicaciones como AT&T y Verizon utilizan OpenStack para gestionar sus infraestructuras de red y ofrecer servicios avanzados a sus clientes. Un ejemplo local es OASIX, de Grupo Aire, una de las pocas cloud españolas basadas en openstack y con desarrollo propio 🇪🇸.
+- **Investigación Científica**: El CERN, la Organización Europea para la Investigación Nuclear, utiliza OpenStack para gestionar su infraestructura de computación en la nube, permitiendo el procesamiento de grandes volúmenes de datos generados por sus experimentos científicos.
+Estos casos de uso demuestran la versatilidad y capacidad de OpenStack para adaptarse a diferentes necesidades y entornos, proporcionando una solución robusta y escalable para la gestión de infraestructuras de nube.
+
+**Además, al ser un proyecto de código abierto colaborativo**, OpenStack se beneficia de una comunidad global de desarrolladores y usuarios que contribuyen continuamente a su mejora y evolución. Esto asegura que la plataforma se mantenga actualizada con las últimas innovaciones tecnológicas y que se puedan abordar rápidamente los problemas y necesidades emergentes. La naturaleza abierta de OpenStack también permite a las organizaciones personalizar y adaptar la plataforma a sus necesidades específicas, fomentando la innovación y la flexibilidad en la gestión de infraestructuras de nube.
+
 ## Enlaces de Interés 🔗
 
 - [Sitio Oficial de OpenStack](https://www.openstack.org/)
 - [Documentación de OpenStack](https://docs.openstack.org/)
 - [Código Fuente en GitHub](https://github.com/openstack)
 - [Comunidad de OpenStack](https://www.openstack.org/community/)
-
-OpenStack es una solución poderosa y flexible para la gestión de infraestructuras de nube, utilizada por muchas organizaciones en todo el mundo para construir y gestionar sus entornos de nube. Su naturaleza de código abierto y su amplia comunidad de desarrolladores y usuarios aseguran que OpenStack continúe evolucionando y mejorando con el tiempo. 🚀
-
-![Arquitectura de OpenStack](estructura_openstack.png)
+- [Kolla-Ansible en GitHub](https://github.com/openstack/kolla-ansible)
+- [Documentación de Kolla-Ansible](https://docs.openstack.org/kolla-ansible/latest/)
+- [Soax-Oasix](https://oasixcloud.es)

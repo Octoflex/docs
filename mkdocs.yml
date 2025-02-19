@@ -5,17 +5,24 @@ nav:
   - Documentación técnica: 
     - Ceph: docu_tecnica/ceph/ceph_base.md
     - Openstack: docu_tecnica/openstack/openstack_base.md
-    
+  - Blog: 
+    - blog/index.md
   - Acerca de: about.md
 theme:
   name: material
+  logo: images/logo.png
+  favicon: images/favicon.ico
   palette:
     primary: 'indigo'
-    accent: 'indigo'
+    accent: 'pink'
   font:
     text: 'Roboto'
     code: 'Roboto Mono'
   language: 'es'
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
 markdown_extensions:
   - admonition
   - codehilite
@@ -32,3 +39,6 @@ extra_javascript:
 plugins: 
   - search
   - social
+  - minify
+  - blog: 
+      authors_file: "blog/authors/.authors.yml"
