@@ -1,60 +1,70 @@
 ---
 title: Home
-description: Official OctoFlex documentation — cloud infrastructure with OpenStack and distributed storage with Ceph.
+description: OctoFlex delivers turnkey private clouds built on OpenStack and Ceph, plus independent cloud advisory.
 hide:
   - navigation
 ---
 
-# 🌟 Welcome to OctoFlex 🌟
+# OctoFlex
 
-Welcome to the OctoFlex project! We are glad to have you here 😊. OctoFlex is an
-innovative tool designed to facilitate and optimize your projects 🚀.
+**Turnkey private clouds on OpenStack and Ceph, plus independent cloud
+advisory.**
 
-## Where to start
+We build your private cloud, on your hardware, and hand it over running and
+documented. Open source top to bottom: no licences that change price, and no
+lock-in to us.
 
 <div class="grid cards" markdown>
 
-- :material-cloud-outline:{ .lg .middle } **OpenStack**
+- :material-octagon-outline:{ .lg .middle } **What is OctoFlex**
 
     ---
 
-    Open cloud platform: compute, networking and storage. Learn about its main
-    modules and how they fit into OctoFlex.
+    What we do, who for, and what it is built on.
 
-    [:octicons-arrow-right-24: Read the docs](doc/openstack/openstack_base.md)
+    [:octicons-arrow-right-24: Start here](octoflex/que-es.md)
 
-- :material-database-outline:{ .lg .middle } **Ceph**
-
-    ---
-
-    Distributed, scalable and self-healing storage. The data layer the platform
-    is built on.
-
-    [:octicons-arrow-right-24: Read the docs](doc/ceph/ceph_base.md)
-
-- :material-tag-multiple-outline:{ .lg .middle } **Tags**
+- :material-clipboard-check-outline:{ .lg .middle } **Services**
 
     ---
 
-    Browse all content grouped by topic.
+    Turnkey private cloud and cloud advisory: scope and deliverables for each
+    phase.
 
-    [:octicons-arrow-right-24: Browse tags](tags.md)
+    [:octicons-arrow-right-24: See services](octoflex/servicios.md)
 
-- :material-github:{ .lg .middle } **Contribute**
+- :material-sitemap-outline:{ .lg .middle } **Reference architecture**
 
     ---
 
-    Found a mistake or want to add content? Every contribution helps.
+    The example production scenario every deployment starts from.
 
-    [:octicons-arrow-right-24: How to contribute](https://github.com/octoflex/docs/blob/main/CONTRIBUTING.md)
+    [:octicons-arrow-right-24: See architecture](octoflex/arquitectura.md)
+
+- :material-scale-balance:{ .lg .middle } **Technical decisions**
+
+    ---
+
+    Why OpenStack, why Kolla-Ansible, why Ceph, and why these versions.
+
+    [:octicons-arrow-right-24: See decisions](octoflex/decisiones.md)
 
 </div>
 
-## 📬 Contact
+## Technologies
+
+The platform rests on two open source projects. These pages explain what they
+are and how they fit together:
+
+- [**OpenStack**](doc/openstack/openstack_base.md) — the cloud platform:
+  compute, networking, identity and orchestration.
+- [**Ceph**](doc/ceph/ceph_base.md) — distributed storage: block, object and
+  file on a single cluster.
+
+## Contact
 
 - [GitHub](https://github.com/octoflex) 🐙
 - [Twitter](https://twitter.com/octoflex_es) 🐦
 
-Thank you for being part of our community. We look forward to your feedback and suggestions! ✨
-
-The OctoFlex team
+Considering a move off a proprietary platform, or building private cloud for the
+first time? Get in touch.

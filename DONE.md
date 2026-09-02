@@ -84,6 +84,22 @@ despliegue a GitHub Pages desde Actions.
 - [x] `.authors.yml` del blog tenía un avatar falso (`ruta/imagen-perfil.png`)
       → corregido.
 
+## Contenido de producto (fase 1)
+
+- [x] Sección **OctoFlex** con cuatro páginas nuevas, en español e inglés:
+      «Qué es OctoFlex», «Servicios», «Arquitectura de referencia» y
+      «Decisiones técnicas».
+- [x] Navegación reestructurada: OctoFlex primero, y las páginas de OpenStack y
+      Ceph recolocadas bajo «Tecnologías» como contexto de apoyo, que es lo que
+      realmente son.
+- [x] Portada reescrita: dice a qué se dedica OctoFlex en la primera línea, en
+      lugar de «una herramienta innovadora».
+- [x] Página de Ceph actualizada de Reef a **Squid 19.2.6**, incluido el
+      paquete `centos-release-ceph-squid`.
+- [x] Instalación de cephadm corregida: la URL documentada devolvía 404.
+- [x] Diagrama de arquitectura en mermaid. El plugin `privacy` lo sirve en
+      local: cero peticiones a unpkg desde el navegador del visitante.
+
 ## Calidad
 
 - [x] Imágenes optimizadas: **703 KB → 151 KB** (redimensionado a 1400 px máx.

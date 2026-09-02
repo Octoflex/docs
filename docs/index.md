@@ -1,60 +1,71 @@
 ---
 title: Inicio
-description: Documentación oficial de OctoFlex — infraestructura cloud con OpenStack y almacenamiento distribuido con Ceph.
+description: OctoFlex despliega nubes privadas llave en mano sobre OpenStack y Ceph, y acompaña con asesoría cloud independiente.
 hide:
   - navigation
 ---
 
-# 🌟 Bienvenido a OctoFlex 🌟
+# OctoFlex
 
-¡Bienvenido al proyecto OctoFlex! Nos alegra tenerte aquí 😊. OctoFlex es una
-herramienta innovadora diseñada para facilitar y optimizar tus proyectos 🚀.
+**Nubes privadas llave en mano sobre OpenStack y Ceph, más asesoría cloud
+independiente.**
 
-## Por dónde empezar
+Construimos tu nube privada, sobre tu hardware, y te la entregamos funcionando y
+documentada. Software libre de arriba abajo: sin licencias que cambien de precio
+y sin quedarte atado a nosotros.
 
 <div class="grid cards" markdown>
 
-- :material-cloud-outline:{ .lg .middle } **OpenStack**
+- :material-octagon-outline:{ .lg .middle } **Qué es OctoFlex**
 
     ---
 
-    Plataforma de nube abierta: cómputo, red y almacenamiento. Conoce sus
-    módulos principales y cómo encajan en OctoFlex.
+    Qué hacemos, para quién y sobre qué está construido.
 
-    [:octicons-arrow-right-24: Ver documentación](doc/openstack/openstack_base.md)
+    [:octicons-arrow-right-24: Empezar por aquí](octoflex/que-es.md)
 
-- :material-database-outline:{ .lg .middle } **Ceph**
-
-    ---
-
-    Almacenamiento distribuido, escalable y auto-reparable. La capa de datos
-    sobre la que se apoya la plataforma.
-
-    [:octicons-arrow-right-24: Ver documentación](doc/ceph/ceph_base.md)
-
-- :material-tag-multiple-outline:{ .lg .middle } **Etiquetas**
+- :material-clipboard-check-outline:{ .lg .middle } **Servicios**
 
     ---
 
-    Navega por todo el contenido agrupado por tema.
+    Nube privada llave en mano y asesoría cloud: alcance y entregables de cada
+    fase.
 
-    [:octicons-arrow-right-24: Ver etiquetas](tags.md)
+    [:octicons-arrow-right-24: Ver servicios](octoflex/servicios.md)
 
-- :material-github:{ .lg .middle } **Contribuir**
+- :material-sitemap-outline:{ .lg .middle } **Arquitectura de referencia**
 
     ---
 
-    ¿Has encontrado un error o quieres aportar contenido? Toda ayuda suma.
+    El escenario productivo de ejemplo del que parte cada despliegue.
 
-    [:octicons-arrow-right-24: Cómo contribuir](https://github.com/octoflex/docs/blob/main/CONTRIBUTING.md)
+    [:octicons-arrow-right-24: Ver arquitectura](octoflex/arquitectura.md)
+
+- :material-scale-balance:{ .lg .middle } **Decisiones técnicas**
+
+    ---
+
+    Por qué OpenStack, por qué Kolla-Ansible, por qué Ceph y por qué estas
+    versiones.
+
+    [:octicons-arrow-right-24: Ver decisiones](octoflex/decisiones.md)
 
 </div>
 
-## 📬 Contacto
+## Tecnologías
+
+La plataforma se apoya en dos proyectos de software libre. Estas páginas
+explican qué son y cómo encajan:
+
+- [**OpenStack**](doc/openstack/openstack_base.md) — la plataforma de nube:
+  cómputo, red, identidad y orquestación.
+- [**Ceph**](doc/ceph/ceph_base.md) — el almacenamiento distribuido: bloque,
+  objeto y ficheros sobre un único clúster.
+
+## Contacto
 
 - [GitHub](https://github.com/octoflex) 🐙
 - [Twitter](https://twitter.com/octoflex_es) 🐦
 
-Gracias por ser parte de nuestra comunidad. ¡Esperamos tus comentarios y sugerencias! ✨
-
-El equipo de OctoFlex
+¿Estás valorando salir de una plataforma propietaria, o montar nube privada por
+primera vez? Escríbenos y lo hablamos.

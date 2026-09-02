@@ -10,9 +10,14 @@ edit_uri: edit/main/docs/
 
 nav:
   - Inicio: index.md
-  - Documentación técnica:
-      - Ceph: doc/ceph/ceph_base.md
+  - OctoFlex:
+      - Qué es OctoFlex: octoflex/que-es.md
+      - Servicios: octoflex/servicios.md
+      - Arquitectura de referencia: octoflex/arquitectura.md
+      - Decisiones técnicas: octoflex/decisiones.md
+  - Tecnologías:
       - OpenStack: doc/openstack/openstack_base.md
+      - Ceph: doc/ceph/ceph_base.md
   - Etiquetas: tags.md
   - Acerca de: about.md
 
@@ -123,7 +128,12 @@ plugins:
           site_description: Official documentation of the OctoFlex project 🚀
           nav_translations:
             Inicio: Home
-            Documentación técnica: Technical documentation
+            OctoFlex: OctoFlex
+            Qué es OctoFlex: What is OctoFlex
+            Servicios: Services
+            Arquitectura de referencia: Reference architecture
+            Decisiones técnicas: Technical decisions
+            Tecnologías: Technologies
             Etiquetas: Tags
             Acerca de: About
   - tags

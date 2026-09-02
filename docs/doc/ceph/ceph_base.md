@@ -37,9 +37,9 @@ Ceph se compone de varios componentes clave:
 - **Big Data**: Ceph puede manejar grandes volúmenes de datos, lo que lo hace adecuado para aplicaciones de Big Data.
 - **Backup y Recuperación**: La replicación y la codificación de borrado de Ceph aseguran que los datos estén siempre disponibles y protegidos.
 
-## Instalación Básica con cephadm (Versión Reef)
+## Instalación Básica con cephadm (Versión Squid)
 
-Para instalar Ceph versión Reef utilizando `cephadm`, se pueden seguir los siguientes pasos básicos:
+Para instalar Ceph versión Squid utilizando `cephadm`, se pueden seguir los siguientes pasos básicos:
 
 1. **Preparar los nodos**: Asegurarse de que todos los nodos tengan las dependencias necesarias instaladas y que tengan acceso a internet.
 2. **Instalar cephadm**: instalar `cephadm` en el nodo inicial.
@@ -53,14 +53,14 @@ Para instalar Ceph versión Reef utilizando `cephadm`, se pueden seguir los sigu
     === "CentOS / RHEL"
 
         ```bash
-        sudo dnf install --assumeyes centos-release-ceph-reef
+        sudo dnf install --assumeyes centos-release-ceph-squid
         sudo dnf install --assumeyes cephadm
         ```
 
     === "Descarga directa"
 
         ```bash
-        CEPH_RELEASE=18.2.8  # sustituir por la release activa de Reef
+        CEPH_RELEASE=19.2.6  # sustituir por la release activa de Squid
         curl --silent --remote-name --location \
           "https://download.ceph.com/rpm-${CEPH_RELEASE}/el9/noarch/cephadm"
         chmod +x cephadm

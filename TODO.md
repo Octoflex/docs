@@ -39,9 +39,21 @@ Para invertir la decisión: quitar `exclude_docs`, volver a añadir el plugin
       `deploy-pages`): evita commits de build en el repo. **Requiere cambiar a
       mano el origen de Pages a "GitHub Actions" en los ajustes del repo**, por
       eso no se ha hecho: hacerlo sin ese cambio rompe la publicación.
-- [ ] Contenido por escribir: guía de instalación / quickstart, arquitectura,
-      FAQ, glosario, troubleshooting.
-- [ ] `docs/about.md` sigue siendo genérico: falta información real del equipo.
+- [ ] **Fase 2 — guías de uso para clientes**: primeros pasos en la nube,
+      instancias, volúmenes, redes, CLI y API, cuotas. Pendiente de que haya
+      entorno y clientes.
+- [ ] **Fase 3 — operación**: despliegue con Kolla-Ansible, actualización,
+      respaldo e incidencias. **Decidir antes si va en este sitio público**:
+      topología, direccionamiento y procedimientos de recuperación no deberían
+      publicarse. Lo razonable es un repositorio o despliegue privado.
+- [ ] Retirar los avisos «Pendiente de validar» de
+      [arquitectura](docs/octoflex/arquitectura.md) y
+      [decisiones](docs/octoflex/decisiones.md) cuando exista un despliegue
+      real, y sustituirlos por cifras medidas.
+- [ ] `docs/about.md` sigue siendo genérico: falta información real del equipo
+      y un canal de contacto de verdad (hoy sólo hay GitHub y Twitter).
+- [ ] Datos que faltan para completar la fase 1: público objetivo del negocio y
+      si conviene citar sectores concretos.
 - [ ] *(Opcional)* `mike` para versionar la documentación si OctoFlex publica
       releases.
 - [ ] *(Opcional)* `devcontainer.json` para colaboradores sin Python local.
