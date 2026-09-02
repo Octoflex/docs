@@ -1,0 +1,26 @@
+name: links
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 200,203,206,429 './**/*.md'
+          fail: false
+          output: lychee-report.md
+      - uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Enlaces rotos en la documentación
+          content-filepath: lychee-report.md
+          labels: documentación, automatizado
