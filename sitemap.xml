@@ -36,6 +36,34 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.octoflex.es/en/doc/openstack/openstack_base/"/>
     </url>
     <url>
+        <loc>https://docs.octoflex.es/octoflex/arquitectura/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.octoflex.es/octoflex/arquitectura/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.octoflex.es/en/octoflex/arquitectura/"/>
+    </url>
+    <url>
+        <loc>https://docs.octoflex.es/octoflex/decisiones/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.octoflex.es/octoflex/decisiones/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.octoflex.es/en/octoflex/decisiones/"/>
+    </url>
+    <url>
+        <loc>https://docs.octoflex.es/octoflex/que-es/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.octoflex.es/octoflex/que-es/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.octoflex.es/en/octoflex/que-es/"/>
+    </url>
+    <url>
+        <loc>https://docs.octoflex.es/octoflex/servicios/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.octoflex.es/octoflex/servicios/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.octoflex.es/en/octoflex/servicios/"/>
+    </url>
+    <url>
         <loc>https://docs.octoflex.es/en/</loc>
         <lastmod>2026-09-02</lastmod>
         <changefreq>daily</changefreq>
@@ -69,5 +97,33 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://docs.octoflex.es/en/doc/openstack/openstack_base/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://docs.octoflex.es/doc/openstack/openstack_base/"/>
+    </url>
+    <url>
+        <loc>https://docs.octoflex.es/en/octoflex/arquitectura/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.octoflex.es/en/octoflex/arquitectura/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.octoflex.es/octoflex/arquitectura/"/>
+    </url>
+    <url>
+        <loc>https://docs.octoflex.es/en/octoflex/decisiones/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.octoflex.es/en/octoflex/decisiones/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.octoflex.es/octoflex/decisiones/"/>
+    </url>
+    <url>
+        <loc>https://docs.octoflex.es/en/octoflex/que-es/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.octoflex.es/en/octoflex/que-es/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.octoflex.es/octoflex/que-es/"/>
+    </url>
+    <url>
+        <loc>https://docs.octoflex.es/en/octoflex/servicios/</loc>
+        <lastmod>2026-09-02</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://docs.octoflex.es/en/octoflex/servicios/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://docs.octoflex.es/octoflex/servicios/"/>
     </url>
 </urlset>
