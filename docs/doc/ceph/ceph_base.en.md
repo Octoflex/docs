@@ -42,13 +42,29 @@ Ceph consists of several key components:
 To install Ceph Reef version using `cephadm`, you can follow these basic steps:
 
 1. **Prepare the nodes**: Ensure all nodes have the necessary dependencies installed and have internet access.
-2. **Install cephadm**: Download and install `cephadm` on the initial node.
+2. **Install cephadm**: install `cephadm` on the initial node.
 
-    ```bash
-    curl --silent --remote-name https://raw.githubusercontent.com/ceph/ceph/reef/src/cephadm/cephadm
-    chmod +x cephadm
-    sudo ./cephadm install
-    ```
+    === "Debian / Ubuntu"
+
+        ```bash
+        sudo apt install -y cephadm
+        ```
+
+    === "CentOS / RHEL"
+
+        ```bash
+        sudo dnf install --assumeyes centos-release-ceph-reef
+        sudo dnf install --assumeyes cephadm
+        ```
+
+    === "Direct download"
+
+        ```bash
+        CEPH_RELEASE=18.2.8  # replace with the active Reef release
+        curl --silent --remote-name --location \
+          "https://download.ceph.com/rpm-${CEPH_RELEASE}/el9/noarch/cephadm"
+        chmod +x cephadm
+        ```
 
 3. **Deploy the cluster**: Use `cephadm` to deploy the cluster.
 

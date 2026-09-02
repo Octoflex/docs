@@ -49,7 +49,6 @@ theme:
         icon: material/brightness-4
         name: Volver a las preferencias del sistema
   features:
-    - announce.dismiss
     - content.action.edit
     - content.code.annotate
     - content.code.copy

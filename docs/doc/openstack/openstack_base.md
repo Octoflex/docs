@@ -41,8 +41,6 @@ OpenStack se despliega en una variedad de entornos, incluyendo:
 
 ## Distribuciones y Métodos de Despliegue 🛠️
 
-OpenStack es una solución poderosa y flexible para la gestión de infraestructuras de nube, utilizada por muchas organizaciones en todo el mundo para construir y gestionar sus entornos de nube. Su naturaleza de código abierto y su amplia comunidad de desarrolladores y usuarios aseguran que OpenStack continúe evolucionando y mejorando con el tiempo. 🚀
-
 Existen varias distribuciones y métodos de despliegue de OpenStack, cada una con sus propias características y ventajas. Algunas de las más populares son:
 
 - **Red Hat OpenStack Platform**: Una distribución comercial de OpenStack ofrecida por Red Hat, que incluye soporte y servicios adicionales. Es conocida por su estabilidad y soporte empresarial.
