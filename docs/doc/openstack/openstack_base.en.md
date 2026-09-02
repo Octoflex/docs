@@ -1,3 +1,12 @@
+---
+title: OpenStack
+description: Overview of OpenStack and its main modules within the OctoFlex platform.
+tags:
+  - cloud
+  - openstack
+  - infrastructure
+---
+
 # OpenStack
 ![OpenStack Logo](openstack_logo.png){width=35%}
 

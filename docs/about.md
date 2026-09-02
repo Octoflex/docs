@@ -1,13 +1,16 @@
+---
+title: Acerca de
+description: Quiénes somos y cómo contactar con el equipo de OctoFlex.
+---
+
 # Acerca de 📬
 
-Si quieres estar en contacto con nosotros, aquí tienes nuestras redes sociales:
+Si quieres estar en contacto con nosotros, aquí tienes nuestras redes sociales.
 
-## 📡 Contacto y Redes Sociales
+## 📡 Contacto y redes sociales
 
-<!-- - 📧 **Email:** contacto@ejemplo.com -->
-- 🐦 **Twitter:** [@ejemplo](https://twitter.com/octoflex_es)
-<!-- - 💼 **LinkedIn:** [linkedin.com/in/ejemplo](https://linkedin.com/in/ejemplo) -->
-- 💻 **GitHub:** [github.com/ejemplo](https://github.com/ejemplo)
+- 🐦 **Twitter:** [@octoflex_es](https://twitter.com/octoflex_es)
+- 💻 **GitHub:** [github.com/octoflex](https://github.com/octoflex)
 
 ## ¿Por qué seguirnos? 🎯
 
@@ -19,5 +22,5 @@ Si tienes alguna duda, sugerencia o simplemente quieres saludar, ¡escríbenos! 
 
 ---
 
-➡️ [Inicio](inicio.md)  
-➡️ [Documentación Técnica](documentacion_tecnica.md)
+➡️ [Inicio](index.md)
+➡️ [Ceph](doc/ceph/ceph_base.md) · [OpenStack](doc/openstack/openstack_base.md)

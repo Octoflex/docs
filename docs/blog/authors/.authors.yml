@@ -1,7 +1,6 @@
 authors:
-  # Identificador único del autor (ej: nombre de usuario)
   Admin1:
-    name: "Admin1"
-    description: "Admin"
-    avatar: "ruta/imagen-perfil.png"  # o URL externa
-    url: "https://enlace-perfil.com"  # opcional
+    name: Equipo OctoFlex
+    description: Mantenedores del proyecto
+    avatar: https://github.com/octoflex.png
+    url: https://github.com/octoflex

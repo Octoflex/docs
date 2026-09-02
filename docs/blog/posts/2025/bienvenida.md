@@ -1,18 +1,21 @@
 ---
 date: 2025-02-19
-title: "Mi primer post"
+title: "Primer post: el inicio de OctoFlex"
+description: Presentación del proyecto OctoFlex y de lo que encontrarás en esta documentación.
 categories:
   - General
 tags:
   - general
+  - octoflex
 authors:
-    - Admin1
+  - Admin1
 ---
-# Contenido del artículo...
 
-# Primer Post: El Inicio de OctoFlex 🚀
+# Primer post: el inicio de OctoFlex 🚀
 
 ¡Bienvenidos al blog de OctoFlex! 🎉
+
+<!-- more -->
 
 Nos llena de ilusión anunciar el lanzamiento de nuestro proyecto OctoFlex. Este es el primer paso de un emocionante viaje que esperamos compartir con todos ustedes. Nuestro objetivo es contribuir a la comunidad tecnológica con herramientas y recursos que faciliten el desarrollo y la colaboración.
 

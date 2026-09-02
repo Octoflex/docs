@@ -1,3 +1,12 @@
+---
+title: Ceph
+description: Introduction to Ceph, the distributed storage system used in the OctoFlex infrastructure.
+tags:
+  - storage
+  - ceph
+  - infrastructure
+---
+
 # Ceph
 
 Ceph is a distributed storage system that provides highly scalable and reliable storage for large amounts of data. It is designed to be self-managing, self-healing, and self-optimizing, making it ideal for cloud storage environments and data centers.
