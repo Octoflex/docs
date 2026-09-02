@@ -59,6 +59,11 @@ Cada push a `main` dispara [`.github/workflows/ci.yml`](.github/workflows/ci.yml
 que construye con `--strict` y despliega a la rama `gh-pages`. Los pull requests
 sólo construyen, no despliegan.
 
+`mkdocs gh-deploy` publica desde el árbol de trabajo, no desde git: un fichero
+sin versionar dentro de `docs/` acabaría en la web aunque esté en `.gitignore`.
+Por eso `make deploy` se niega a ejecutarse si el árbol está sucio. Lo normal es
+no usarlo y dejar que publique el CI, que construye desde un checkout limpio.
+
 ## Contribuir
 
 Ver [CONTRIBUTING.md](CONTRIBUTING.md).
