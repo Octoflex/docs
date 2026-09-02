@@ -8,10 +8,10 @@ tags:
 ---
 
 # OpenStack
+
 ![OpenStack Logo](openstack_logo.png){width=35%}
 
 OpenStack es una plataforma de software de código abierto para la computación en la nube, que permite la creación y gestión de infraestructuras de nube pública y privada. Fue diseñado para ser escalable y flexible, proporcionando una solución robusta para la gestión de recursos de computación, almacenamiento y redes. OpenStack es utilizado por una amplia variedad de organizaciones, desde pequeñas empresas hasta grandes corporaciones y proveedores de servicios en la nube. 🌐
-
 
 ## Módulos de OpenStack 🚀
 
@@ -40,6 +40,7 @@ OpenStack se despliega en una variedad de entornos, incluyendo:
 - **Telecomunicaciones**: Empresas de telecomunicaciones despliegan OpenStack para gestionar sus infraestructuras de red y ofrecer servicios avanzados a sus clientes.
 
 ## Distribuciones y Métodos de Despliegue 🛠️
+
 OpenStack es una solución poderosa y flexible para la gestión de infraestructuras de nube, utilizada por muchas organizaciones en todo el mundo para construir y gestionar sus entornos de nube. Su naturaleza de código abierto y su amplia comunidad de desarrolladores y usuarios aseguran que OpenStack continúe evolucionando y mejorando con el tiempo. 🚀
 
 Existen varias distribuciones y métodos de despliegue de OpenStack, cada una con sus propias características y ventajas. Algunas de las más populares son:
@@ -53,7 +54,6 @@ Existen varias distribuciones y métodos de despliegue de OpenStack, cada una co
 - **DevStack**: Una herramienta de despliegue rápida y sencilla para desarrolladores que desean probar y desarrollar sobre OpenStack. No está destinada para entornos de producción, pero es excelente para pruebas y desarrollo.
 
 Cada una de estas distribuciones y métodos de despliegue ofrece diferentes ventajas y puede ser adecuada para diferentes casos de uso, dependiendo de las necesidades específicas de la organización y del entorno en el que se vaya a desplegar OpenStack.
-
 
 ## Casos de Uso e Infraestructuras que Usan OpenStack 🏢
 

@@ -30,7 +30,7 @@ en todo lo demás.
 
 ## Estructura
 
-```
+```text
 docs/
 ├── index.md                  # portada (es)   ─┐
 ├── index.en.md               # portada (en)   ─┤ traducciones por sufijo

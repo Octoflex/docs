@@ -27,11 +27,13 @@ Para invertir la decisión: quitar `exclude_docs`, volver a añadir el plugin
 
 ## 📋 Pendiente
 
-- [ ] **Regenerar los códigos de recuperación de GitHub**: el fichero
-      `docs/images/github-recovery-codes.txt` estaba dentro de la carpeta
-      publicada y se ha movido a `~/Desktop/`. Ver [DONE.md](DONE.md#seguridad).
-- [ ] Instalar los hooks: `pip install pre-commit && pre-commit install`.
-- [ ] Revisar el primer PR generado por Dependabot.
+- [ ] *(Opcional)* **Regenerar los códigos de recuperación de GitHub**: el
+      fichero estaba dentro de la carpeta que se publica, pero se verificó que
+      nunca entró en el historial ni llegó a publicarse — se creó un día
+      después del único despliegue anterior, y no aparece en ningún blob ni en
+      ninguno de los dos árboles publicados. No hubo exposición. Aun así,
+      conviene sacarlos del Escritorio en texto plano y meterlos en un gestor
+      de contraseñas.
 - [ ] *(Opcional)* Migrar el despliegue de `gh-deploy` (rama `gh-pages`) a
       **GitHub Pages vía artifact** (`actions/upload-pages-artifact` +
       `deploy-pages`): evita commits de build en el repo. **Requiere cambiar a

@@ -14,7 +14,7 @@ innovative tool designed to facilitate and optimize your projects 🚀.
 
 <div class="grid cards" markdown>
 
--   :material-cloud-outline:{ .lg .middle } **OpenStack**
+- :material-cloud-outline:{ .lg .middle } **OpenStack**
 
     ---
 
@@ -23,7 +23,7 @@ innovative tool designed to facilitate and optimize your projects 🚀.
 
     [:octicons-arrow-right-24: Read the docs](doc/openstack/openstack_base.md)
 
--   :material-database-outline:{ .lg .middle } **Ceph**
+- :material-database-outline:{ .lg .middle } **Ceph**
 
     ---
 
@@ -32,7 +32,7 @@ innovative tool designed to facilitate and optimize your projects 🚀.
 
     [:octicons-arrow-right-24: Read the docs](doc/ceph/ceph_base.md)
 
--   :material-tag-multiple-outline:{ .lg .middle } **Tags**
+- :material-tag-multiple-outline:{ .lg .middle } **Tags**
 
     ---
 
@@ -40,7 +40,7 @@ innovative tool designed to facilitate and optimize your projects 🚀.
 
     [:octicons-arrow-right-24: Browse tags](tags.md)
 
--   :material-github:{ .lg .middle } **Contribute**
+- :material-github:{ .lg .middle } **Contribute**
 
     ---
 

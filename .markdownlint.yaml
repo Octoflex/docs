@@ -4,3 +4,6 @@ MD013: false   # longitud de línea
 MD033: false   # HTML embebido (grid cards, admoniciones)
 MD041: false   # el front matter va antes del H1
 MD046: false   # estilo de bloques de código
+MD025:
+  # El `title:` del front matter no es un H1: en MkDocs conviven con el # del cuerpo.
+  front_matter_title: ""

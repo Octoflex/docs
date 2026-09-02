@@ -12,6 +12,7 @@ tags:
 Ceph is a distributed storage system that provides highly scalable and reliable storage for large amounts of data. It is designed to be self-managing, self-healing, and self-optimizing, making it ideal for cloud storage environments and data centers.
 
 ![Ceph Logo](ceph_logo.png){width=50%}
+
 ## Main Features
 
 - **Scalability**: Ceph can scale from a few nodes to thousands of nodes, allowing for seamless growth.
@@ -42,24 +43,33 @@ To install Ceph Reef version using `cephadm`, you can follow these basic steps:
 
 1. **Prepare the nodes**: Ensure all nodes have the necessary dependencies installed and have internet access.
 2. **Install cephadm**: Download and install `cephadm` on the initial node.
+
     ```bash
     curl --silent --remote-name https://raw.githubusercontent.com/ceph/ceph/reef/src/cephadm/cephadm
     chmod +x cephadm
     sudo ./cephadm install
     ```
+
 3. **Deploy the cluster**: Use `cephadm` to deploy the cluster.
+
     ```bash
     sudo cephadm bootstrap --mon-ip <INITIAL_NODE_IP>
     ```
+
 4. **Add additional nodes**: Add more nodes to the cluster.
+
     ```bash
     sudo ceph orch host add <NODE_NAME> <NODE_IP>
     ```
+
 5. **Configure the cluster**: Configure the monitors, OSDs, and other necessary components using `cephadm`.
+
     ```bash
     sudo ceph orch apply osd --all-available-devices
     ```
+
 6. **Verify the installation**: Ensure the cluster is functioning correctly.
+
     ```bash
     ceph -s
     ```

@@ -8,6 +8,7 @@ tags:
 ---
 
 # OpenStack
+
 ![OpenStack Logo](openstack_logo.png){width=35%}
 
 OpenStack is an open-source software platform for cloud computing, enabling the creation and management of public and private cloud infrastructures. It is designed to be scalable and flexible, providing a robust solution for managing computing, storage, and networking resources. OpenStack is used by a wide variety of organizations, from small businesses to large corporations and cloud service providers. 🌐

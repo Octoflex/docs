@@ -3,6 +3,8 @@ repos:
     rev: v6.0.0
     hooks:
       - id: end-of-file-fixer
+        # CNAME define el dominio publicado: no se toca.
+        exclude: ^docs/CNAME$
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
       - id: check-yaml
@@ -23,4 +25,7 @@ repos:
     rev: v2.4.1
     hooks:
       - id: codespell
-        args: [--ignore-words-list, "ba,nd,te,ot", --skip, "*.png,*.ico,site/*,venv/*"]
+        # codespell sólo entiende inglés: sobre texto en español da falsos
+        # positivos constantes ("oficial" -> "official"). Limitado a las
+        # traducciones al inglés.
+        files: \.en\.md$
