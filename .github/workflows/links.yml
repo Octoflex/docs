@@ -19,7 +19,7 @@ jobs:
           args: --no-progress --accept 200,203,206,429 './**/*.md'
           fail: false
           output: lychee-report.md
-      - uses: peter-evans/create-issue-from-file@v5
+      - uses: peter-evans/create-issue-from-file@v6
         with:
           title: Enlaces rotos en la documentación
           content-filepath: lychee-report.md
