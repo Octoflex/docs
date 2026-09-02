@@ -1,0 +1,6 @@
+# Reglas relajadas para documentación con emojis y HTML embebido de Material.
+default: true
+MD013: false   # longitud de línea
+MD033: false   # HTML embebido (grid cards, admoniciones)
+MD041: false   # el front matter va antes del H1
+MD046: false   # estilo de bloques de código
