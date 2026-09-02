@@ -1,0 +1,17 @@
+/* Diagramas y capturas: centrados y con un borde suave que funciona en ambos temas. */
+.md-typeset img[src$=".png"] {
+  display: block;
+  margin: 1.2rem auto;
+  border-radius: 0.2rem;
+}
+
+/* Las tablas anchas hacen scroll dentro de su contenedor, no en la página. */
+.md-typeset__table {
+  overflow-x: auto;
+}
+
+/* Tarjetas de la portada: altura uniforme. */
+.md-typeset .grid.cards > ul > li {
+  display: flex;
+  flex-direction: column;
+}
