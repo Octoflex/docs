@@ -1,0 +1,13 @@
+{% extends "main.html" %}
+
+{% block content %}
+  <h1>🐙 404 — Página no encontrada</h1>
+  <p>
+    La página que buscas no existe o ha cambiado de sitio.
+    Prueba con el buscador de arriba o vuelve al inicio.
+  </p>
+  <p>
+    <a href="{{ config.site_url }}" class="md-button md-button--primary">Ir al inicio</a>
+    <a href="{{ config.repo_url }}/issues/new" class="md-button">Reportar el enlace roto</a>
+  </p>
+{% endblock %}

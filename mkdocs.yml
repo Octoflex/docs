@@ -1,89 +1,203 @@
 site_name: OctoFlex Docs
 site_url: https://docs.octoflex.es
 site_description: Documentación oficial del proyecto OctoFlex 🚀
+site_author: OctoFlex
+copyright: Copyright &copy; 2026 OctoFlex
+
+repo_url: https://github.com/octoflex/docs
+repo_name: octoflex/docs
+edit_uri: edit/main/docs/
+
 nav:
-  - Home: index.md
-  - Documentación técnica: 
-    - Ceph: doc/ceph/ceph_base.md
-    - Openstack: doc/openstack/openstack_base.md
-  # - Blog: 
-  #   - blog/index.md
+  - Inicio: index.md
+  - Documentación técnica:
+      - Ceph: doc/ceph/ceph_base.md
+      - OpenStack: doc/openstack/openstack_base.md
+  - Etiquetas: tags.md
   - Acerca de: about.md
+
 theme:
   name: material
+  custom_dir: overrides
   logo: images/logo.png
-  favicon: images/favicon.ico
+  favicon: images/favicon.png
+  language: es
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
   palette:
-
-    # Palette toggle for automatic mode
+    # Modo automático (sigue al sistema)
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
-        name: Switch to light mode
+        name: Cambiar a modo claro
 
-    # Palette toggle for light mode
+    # Modo claro
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Cambiar a modo oscuro
 
-    # Palette toggle for dark mode
+    # Modo oscuro
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
-  font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
-  language: 'es'
+        name: Volver a las preferencias del sistema
   features:
+    - announce.dismiss
+    - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-    - navigation.indexes
-    - navigation.instant.progress
-    - navigation.sections
-    - toc.integrate
-    - search.suggest
+    - navigation.tracking
+    - search.highlight
     - search.share
+    - search.suggest
+    - toc.follow
+
 markdown_extensions:
+  - abbr
   - admonition
-  - codehilite
-  - footnotes
-  - meta
   - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
   - toc:
       permalink: true
+      permalink_title: Enlace permanente a esta sección
+      toc_depth: 3
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      lang:
+        - es
+        - en
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      languages:
+        - locale: es
+          default: true
+          name: Español
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_description: Official documentation of the OctoFlex project 🚀
+          nav_translations:
+            Inicio: Home
+            Documentación técnica: Technical documentation
+            Etiquetas: Tags
+            Acerca de: About
+  - tags
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+      fallback_to_build_date: true
+  # Sólo en CI: requieren descargar/renderizar recursos externos.
+  - social:
+      enabled: !ENV [CI, false]
+  - privacy:
+      enabled: !ENV [CI, false]
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+        remove_comments: true
+      cache_safe: true
+
+# Detecta enlaces rotos y páginas huérfanas durante el build.
+# El blog queda fuera del build: el plugin `blog` de Material aún no es
+# compatible con mkdocs-static-i18n (squidfunk/mkdocs-material#5909).
+# El contenido se conserva en docs/blog/ para cuando se resuelva.
+exclude_docs: |
+  blog/
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+  anchors: warn
+
 extra_css:
   - stylesheets/extra.css
-extra_javascript:
-  - javascripts/extra.js
 
-plugins: 
-  - search
-  - social
-  - minify
-  # - i18n:
-  #     default_language: es
-  #     languages:
-  #       es: Español
-  #       en: English
-  # - blog: 
-  #     authors_file: "blog/authors/.authors.yml"
 extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/octoflex
+      name: OctoFlex en GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/octoflex_es
+      name: OctoFlex en Twitter
   consent:
     title: Consentimiento de cookies
-    description: >- 
-      Usamos cookies para reconocer tus visitas y preferencias repetidas, así 
-      como para medir la efectividad de nuestra documentación y si los usuarios 
-      encuentran lo que buscan. Con tu consentimiento, nos ayudas a mejorar 
+    description: >-
+      Usamos cookies para reconocer tus visitas y preferencias repetidas, así
+      como para medir la efectividad de nuestra documentación y si los usuarios
+      encuentran lo que buscan. Con tu consentimiento, nos ayudas a mejorar
       nuestra documentación.
-  alternate:
-    - name: English
-      link: /en/ 
-      lang: en
+    actions:
+      - accept
+      - reject
+      - manage
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
   analytics:
     provider: google
     property: G-X41K5YEY4S
+    feedback:
+      title: ¿Te ha resultado útil esta página?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Sí, me ha sido útil
+          data: 1
+          note: >-
+            ¡Gracias por tu comentario!
+        - icon: material/emoticon-sad-outline
+          name: No, puede mejorar
+          data: 0
+          note: >-
+            Gracias por tu comentario. Ayúdanos a mejorar esta página
+            <a href="https://github.com/octoflex/docs/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">abriendo una incidencia</a>.
