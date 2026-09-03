@@ -67,6 +67,17 @@ Estos casos de uso demuestran la versatilidad y capacidad de OpenStack para adap
 
 **Además, al ser un proyecto de código abierto colaborativo**, OpenStack se beneficia de una comunidad global de desarrolladores y usuarios que contribuyen continuamente a su mejora y evolución. Esto asegura que la plataforma se mantenga actualizada con las últimas innovaciones tecnológicas y que se puedan abordar rápidamente los problemas y necesidades emergentes. La naturaleza abierta de OpenStack también permite a las organizaciones personalizar y adaptar la plataforma a sus necesidades específicas, fomentando la innovación y la flexibilidad en la gestión de infraestructuras de nube.
 
+!!! tip "Guías prácticas"
+
+    Esta página explica qué es OpenStack y cómo encaja en OctoFlex. El
+    procedimiento paso a paso está en **[Frikiteam Docs](https://docs.frikiteam.es)**,
+    la documentación técnica del mismo equipo:
+
+    - [Despliegue con Kolla-Ansible](https://docs.frikiteam.es/doc/openstack/kolla_deployment/)
+    - [Integración de OpenStack con Ceph](https://docs.frikiteam.es/doc/openstack/openstack_ceph_integration/)
+    - [Operación del día a día](https://docs.frikiteam.es/doc/openstack/day2/)
+    - [Resolución de problemas](https://docs.frikiteam.es/doc/openstack/troubleshooting_openstack/)
+
 ## Enlaces de Interés 🔗
 
 - [Sitio Oficial de OpenStack](https://www.openstack.org/)

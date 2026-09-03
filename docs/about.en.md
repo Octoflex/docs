@@ -12,6 +12,20 @@ If you want to get in touch with us, here are our social networks.
 - 🐦 **Twitter:** [@octoflex_es](https://twitter.com/octoflex_es)
 - 💻 **GitHub:** [github.com/octoflex](https://github.com/octoflex)
 
+## 🧩 Ecosystem
+
+OctoFlex is driven by the team behind **Frikiteam**. If you want to see how we
+work before talking to us, it is all published:
+
+- 📚 **[Frikiteam Docs](https://docs.frikiteam.es/en/)** — reference technical
+  documentation: OpenStack, Ceph, Kubernetes, networking and cybersecurity, with
+  the procedures we apply in our deployments.
+- 📝 **[Frikiteam](https://frikiteam.es)** — the blog: field notes, automation,
+  infrastructure and local AI.
+
+This site covers the **what** and the **why** of OctoFlex. The **how**, step by
+step, lives in Frikiteam Docs.
+
 ## Why follow us? 🎯
 
 - We publish technical content regularly.

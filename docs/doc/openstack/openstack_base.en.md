@@ -68,6 +68,17 @@ These use cases demonstrate the versatility and capability of OpenStack to adapt
 
 **Additionally, as a collaborative open-source project**, OpenStack benefits from a global community of developers and users who continuously contribute to its improvement and evolution. This ensures that the platform remains up-to-date with the latest technological innovations and that emerging issues and needs can be quickly addressed. The open nature of OpenStack also allows organizations to customize and adapt the platform to their specific needs, fostering innovation and flexibility in cloud infrastructure management.
 
+!!! tip "Hands-on guides"
+
+    This page explains what OpenStack is and how it fits into OctoFlex. The
+    step-by-step procedure lives in **[Frikiteam Docs](https://docs.frikiteam.es/en/)**,
+    the technical documentation of the same team:
+
+    - [Deployment with Kolla-Ansible](https://docs.frikiteam.es/en/doc/openstack/kolla_deployment/)
+    - [OpenStack and Ceph integration](https://docs.frikiteam.es/en/doc/openstack/openstack_ceph_integration/)
+    - [Day-2 operations](https://docs.frikiteam.es/en/doc/openstack/day2/)
+    - [Troubleshooting](https://docs.frikiteam.es/en/doc/openstack/troubleshooting_openstack/)
+
 ## Useful Links 🔗
 
 - [Official OpenStack Website](https://www.openstack.org/)

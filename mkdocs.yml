@@ -178,6 +178,12 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/octoflex_es
       name: OctoFlex en Twitter
+    - icon: material/book-open-page-variant
+      link: https://docs.frikiteam.es
+      name: Frikiteam Docs, documentación técnica del equipo
+    - icon: material/rss
+      link: https://frikiteam.es
+      name: Frikiteam, el blog del equipo
   consent:
     title: Consentimiento de cookies
     description: >-

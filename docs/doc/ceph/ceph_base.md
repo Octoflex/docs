@@ -91,3 +91,14 @@ Para instalar Ceph versión Squid utilizando `cephadm`, se pueden seguir los sig
     ```
 
 Para más detalles, se puede consultar la [documentación oficial de Ceph](https://docs.ceph.com/en/latest/).
+
+!!! tip "Guías prácticas"
+
+    Estos pasos dejan un clúster en marcha. Para afinarlo, integrarlo y operarlo,
+    **[Frikiteam Docs](https://docs.frikiteam.es)** —la documentación técnica del
+    mismo equipo— entra en detalle:
+
+    - [Ajuste de rendimiento de Ceph](https://docs.frikiteam.es/doc/storage/ceph/ceph_tuning/)
+    - [Resolución de problemas](https://docs.frikiteam.es/doc/storage/ceph/troubleshooting_ceph/)
+    - [Integración con OpenStack](https://docs.frikiteam.es/doc/openstack/openstack_ceph_integration/)
+    - [Protocolos y medición de rendimiento](https://docs.frikiteam.es/doc/storage/protocols/protocols/)

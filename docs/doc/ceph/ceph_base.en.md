@@ -91,3 +91,14 @@ To install Ceph Squid version using `cephadm`, you can follow these basic steps:
     ```
 
 For more details, you can refer to the [official Ceph documentation](https://docs.ceph.com/en/latest/).
+
+!!! tip "Hands-on guides"
+
+    These steps get a cluster running. To tune, integrate and operate it,
+    **[Frikiteam Docs](https://docs.frikiteam.es/en/)** —the technical
+    documentation of the same team— goes into detail:
+
+    - [Ceph performance tuning](https://docs.frikiteam.es/en/doc/storage/ceph/ceph_tuning/)
+    - [Troubleshooting](https://docs.frikiteam.es/en/doc/storage/ceph/troubleshooting_ceph/)
+    - [Integration with OpenStack](https://docs.frikiteam.es/en/doc/openstack/openstack_ceph_integration/)
+    - [Protocols and performance measurement](https://docs.frikiteam.es/en/doc/storage/protocols/protocols/)
